@@ -12,7 +12,15 @@ public class Grid {
         System.out.println("Player 1, which column would you like?");
         int column = scanner.nextInt();
         Grid[row][column] = "X";
-        System.out.println(Arrays.deepToString(Grid));
+
+        for(int i = 0; i<Grid.length; i++){
+            for (int j = 0; j < Grid[0].length; j ++){
+                System.out.println(Grid[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
 
 
     }
