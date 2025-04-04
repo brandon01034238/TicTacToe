@@ -1,7 +1,5 @@
-public class Zombie {
-    private String[] name = {""};
+public class Zombie extends Player{
 
-    public Zombie() {
-        this.name = name;
-    }
+
+
 }
