@@ -1,18 +1,19 @@
-public class Player {
-    private int gamesWon;
-    private String name;
+import java.util.*;
 
-    public Player(String name, int gamesWon){
-        this.gamesWon = gamesWon;
+public class Player {
+    private String[] name;
+
+    public Player (String[] name){
+        this.name = new String[]{"Merlin", "Sauron", "Circe", "Hydra", "Basilisk", "Xenomorph"};
         this.name = name;
     }
 
-    private String getName(){
-        return name;
+    private String[] getZombieName(){
+        return new String[]{name[((int) (Math.random() * 2))]};
     }
 
-    private int getGamesWon(){
-        return gamesWon;
+    private String[] getWizardName(){
+        return new String[]{name[((int)(Math.random() * (6 - 3 + 1)) + 3)]};
     }
 
 
