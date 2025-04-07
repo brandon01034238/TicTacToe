@@ -6,6 +6,6 @@ public class Wizard extends  Player{
 
         @Override
         public String getMessage(){
-            return "Wizard says: " + super.getMessage();
+            return "Player 1, you are the Wizard. " + super.getMessage();
         }
 }

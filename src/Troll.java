@@ -6,7 +6,7 @@ public class Troll extends  Player{
 
     @Override
     public String getMessage(){
-        return "Troll says: " + super.getMessage();
+        return "Player 2, you are the troll. " + super.getMessage();
     }
 
 }
