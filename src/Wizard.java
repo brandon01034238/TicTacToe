@@ -4,4 +4,8 @@ public class Wizard extends  Player{
             super(message);
         }
 
+        @Override
+        public String getMessage(){
+            return "Wizard says: " + super.getMessage();
+        }
 }

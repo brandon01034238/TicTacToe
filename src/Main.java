@@ -5,6 +5,9 @@ public class Main{
         System.out.println(wizard.getMessage());
         Troll troll = new Troll("As the Troll, you get to go second, this is helpful because you get to play off of your opponent and strategically place your troll");
         System.out.println(troll.getMessage());
+        Player[] players = new Player[2];
+        players[0] = wizard;
+        players[1] = troll;
         Grid grid = new Grid();
         System.out.println("Wizard, your name is: " + grid.getWizardName());
         System.out.println("Troll, your name is: " + grid.getTrollName());

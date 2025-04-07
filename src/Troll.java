@@ -4,4 +4,9 @@ public class Troll extends  Player{
         super(message);
     }
 
+    @Override
+    public String getMessage(){
+        return "Troll says: " + super.getMessage();
+    }
+
 }
